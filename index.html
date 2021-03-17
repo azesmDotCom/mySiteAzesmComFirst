@@ -2,86 +2,85 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>azesm.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>azesm.com</title>
 
-	<!----------Google Font link---------->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!----------Google Font link---------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
-	<!----------Google Font link---------->
+    <!----------Google Font link---------->
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-	<!----------Bootstrap cdn linking---------->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <!----------Bootstrap cdn linking---------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	<!----------STYLE.CSS link---------->
-<link rel="stylesheet" href="css/style.css">
+    <!----------STYLE.CSS link---------->
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
 
 <body>
 
-	<!----------Navigation start---------->
-	<main class="main">
-		<header class="header">
-			<div class="wrap d-flex">
-				<h1 class="logo">
-					<a href="azesm.com"><img src="images/logo.png" alt="logo"></a>
-				</h1>
-				<nav class="menu">
-					<ul>
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Обо мне</a></li>
-						<li><a href="#">Навыки</a></li>
-						<li><a href="#">Блог</a></li>
-						<li><a href="#">Галерея</a></li>
-						<li><a href="#">Контакты</a></li>
+    <!----------Navigation start---------->
+    <main class="main">
+        <header class="header">
+            <div class="wrap d-flex">
+                <h1 class="logo">
+                    <a href="azesm.com"><img src="images/logo.png" alt="logo"></a>
+                </h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Обо мне</a></li>
+                        <li><a href="#">Навыки</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Контакты</a></li>
 
-					</ul>
-				</nav>
-			</div>
-
-
-			<a href="javascript:void(0);" class="sidemenu-toggler">
-				<span></span>
-				<span></span>
-				<span></span>
-			</a>
-
-			<div class="sidemenu">
-				<a href="javascript:void(0);" class="close"></a>
-				<nav>
-					<ul>
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Обо мне</a></li>
-						<li><a href="#">Навыки</a></li>
-						<li><a href="#">Блог</a></li>
-						<li><a href="#">Галерея</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<div class="social">
-						<a href="#"><img src="images/facebook.png" alt="facebook Icon"></a>
-						<a href="#"><img src="images/whatsapp.png" alt="whatsapp Icon"></a>
-						<a href="#"><img src="images/telegram.png" alt="telegram Icon"></a>
-					</div>
-					<p> AZESM.COM 2021 Вёрстка сайта, размещение, контент, поддержка</p>
-				</footer>
-			</div>
+                    </ul>
+                </nav>
+            </div>
 
 
+            <a href="javascript:void(0);" class="sidemenu-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <div class="sidemenu">
+                <a href="javascript:void(0);" class="close"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Обо мне</a></li>
+                        <li><a href="#">Навыки</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <div class="social">
+                        <a href="#"><img src="images/phone-call.svg" alt="facebook Icon"></a>
+                        <a href="#"><img src="images/whatsapp.png" alt="whatsapp Icon"></a>
+                        <a href="#"><img src="images/telegram.svg" alt="telegram Icon"></a>
+                    </div>
+                    <p> AZESM.COM 2021 Вёрстка сайта, размещение, контент, поддержка</p>
+                </footer>
+            </div>
 
 
-		</header>
-	</main>
 
 
+        </header>
+    </main>
 
 
 
@@ -94,7 +93,27 @@
 
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--<script>
+        $(document).ready(function () {
+            $('.sidemenu-toggler').click(function () {
+                $('.sidemenu').addClass('active');
+            });
+
+            $('.close').click(function () {
+                $('.sidemenu').removeClass('active');
+            });
+        });
+    </script>-->
+
+
+
+
+
 </body>
 
 </html>

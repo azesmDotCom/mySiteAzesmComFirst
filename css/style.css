@@ -25,6 +25,7 @@ ol, ul {
 img {
     max-width: 100%;
     height: auto;
+    color: #fff;
 }
 
 a:hover {
@@ -165,3 +166,36 @@ ul {
 .header .sidemenu nav li {
     padding: 15px 0;
 }
+
+.header .sidemenu nav a {
+    font-size: 1.3rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header .sidemenu footer {
+    padding-top: 100px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.header .sidemenu footer .social{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header .sidemenu footer .social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    /*border: 3px dotted #fff;*/
+    border-radius: 50%;
+    transition: all 0.3s linear;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+    
+
